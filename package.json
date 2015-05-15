@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "main": "./main.js",
   "dependencies": {
-    "engine.io-client": "^1.5.1",
-    "org.firenode.core": "0.x"
+    "engine.io-client": "^1.5.1"
+  },
+  "mappings": {
+    "org.firenode.core": "../../../../../node_modules/org.firenode.core"
   }
 }
