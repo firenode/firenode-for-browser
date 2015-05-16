@@ -11,7 +11,7 @@ exports.main = function (UI) {
 
 UI.say("firenode for browser main 2!");
 
-var socket = ENGINE_IO('ws://127.0.0.1:8089');
+var socket = ENGINE_IO('ws://127.0.0.1:8082');
 socket.on('open', function(){
 	socket.on('message', function(data) {
 
